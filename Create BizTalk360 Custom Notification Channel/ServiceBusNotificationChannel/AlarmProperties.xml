@@ -1,0 +1,6 @@
+﻿<prop:AlarmProperties xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                      xmlns:prop="http://www.biztalk360.com/alarms/notification/properties"
+                      Name="servicebus-settings"
+                      DisplayName="Service Bus Settings">
+  <TextBox Name="topic" DisplayName="Topic" IsMandatory="true" Type="text"/>
+</prop:AlarmProperties>

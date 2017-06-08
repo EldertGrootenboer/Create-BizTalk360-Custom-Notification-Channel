@@ -1,0 +1,9 @@
+﻿<prop:GlobalProperties xmlns:bsd="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns:prop="http://www.biztalk360.com/alarms/notification/properties">
+  <Section Name="service-bus-namespace" DisplayName="Service Bus Namespace">
+    <TextBox Name="service-bus-namespace-name" DisplayName="Service Bus Namespace Name" IsMandatory="true" Tooltip="Name of the Service Bus namespace where you want to send the notifications." DefaultValue="YourNamespace" Type="text"/>
+    <TextBox Name="service-bus-shared-access-key-name" DisplayName="Shared Access Key Name" IsMandatory="true" Tooltip="Name of the shared access key used to connect." DefaultValue="RootManageSharedAccessKey" Type="text"/>
+    <TextBox Name="service-bus-shared-access-key" DisplayName="Shared Access Key" IsMandatory="true" Tooltip="Shared access key used to connect." DefaultValue="" Type="text"/>
+  </Section>
+</prop:GlobalProperties>
